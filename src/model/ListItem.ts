@@ -1,7 +1,7 @@
 export interface Item {
   id: string;
   item: string;
-  checked: boolean;
+  checked?: boolean;
 }
 
 export default class ListItem implements Item {
