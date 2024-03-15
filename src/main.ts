@@ -24,7 +24,7 @@ const initApp = (): void => {
       : 1;
 
     const newItem = new ListItem(itemId.toString(), newItemText);
-    console.log('newItem : ', newItem );
+    console.log('newItem : ', newItem);
 
     fullList.addItem(newItem);
     templates.render(fullList);
