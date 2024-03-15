@@ -1,10 +1,10 @@
-export interface Item {
-  id: string;
-  item: string;
-  checked?: boolean;
-}
+// export interface Item {
+//   id: string;
+//   item: string;
+//   checked?: boolean;
+// }
 
-export default class ListItem implements Item {
+export default class ListItem {
   constructor(
     private _id: string = '',
     private _item: string = '',
