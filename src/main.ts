@@ -1,4 +1,4 @@
-import './css/style.css';
+// import './css/style.css';
 
 import FullList from './model/FullList.ts';
 import ListItem from './model/ListItem.ts';
