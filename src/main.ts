@@ -1,8 +1,8 @@
 import './css/style.css';
 
-import FullList from './model/FullList';
-import ListItem from './model/ListItem';
-import UlListTemplates from './templates/ListTemplate';
+import FullList from './model/FullList.ts';
+import ListItem from './model/ListItem.ts';
+import UlListTemplates from './templates/ListTemplate.ts';
 
 const initApp = (): void => {
   const fullList = FullList.instance;
