@@ -2,7 +2,7 @@
 
 import FullList from './model/FullList.ts';
 import ListItem from './model/ListItem.ts';
-import UlListTemplates from './templates/ListTemplate.ts';
+import UlListTemplates from './model/ListTemplate.ts';
 
 const initApp = (): void => {
   const fullList = FullList.instance;
